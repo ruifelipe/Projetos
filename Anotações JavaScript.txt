@@ -1,0 +1,41 @@
+Bibliografia:
+    JavaScript: O guia definitivo 
+    JavaScript: Guia do programador 
+
+    ECMAScript: Guia de referencia da mozila e guia definitivo  da ECMA
+
+
+Identificadores(var(variáveis)): 
+    Podem começar com: 
+        letra, $ ou _
+    
+    Não podem começar com: 
+        números
+    
+    É possível usar:
+        letras ou números
+    
+    Não podem conter:
+        espaços
+    
+    Não podem ser:
+        palavras reservadas
+
+
+Formatando String:
+    var s = 'JavaScript'
+
+    s.length  //quantos caracteres a string tem
+    s.toUpperCase() //tudo para 'MAIÚSCULAS'
+    S.toLowerCase() //tudo para 'minúsculas'
+
+
+Barra invertida ( \ )
+
+var n1 = 1777.7
+
+n1.toFixed(2) // 1777.70 fixando duas casas decimais
+
+n1.toFixed(2).replace('.',',') // 1777,70 trocando . por , 
+
+n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) // R$ 1,777.70 formatando para real 
